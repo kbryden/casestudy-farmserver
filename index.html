@@ -6,7 +6,7 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <link href='https://fonts.googleapis.com/css?family=Muli:400,300italic,300,400italic' rel='stylesheet' type='text/css'>
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
 
@@ -15,18 +15,19 @@
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
-        <body>
         <header class="page-header">
-            <img src="img/logo.jpg" alt="Green Farms">
-            <button type="call-to-action" class="btn">TRY FOR FREE</button>
-            <button type="Log-In" class="btn">LOG IN</button>
+            <img class="header-logo" src="img/logo.jpg" alt="Green Farms">
+            <button type="Log-In" class="header-btn btn">LOG IN</button>
+            <button type="call-to-action" class="header-btn btn">TRY FOR FREE</button>
         </header>
         <div class="jumbo-tron">
-            <button type="play" class="play-btn"><a href="https://youtu.be/OFdyux7VxMk" title="Precision AG video"><img src="img/btn.png"></a></button>
-            <h1>[Precision Ag. Simplified.]</h1>
+            <div class="jumbo-tron-copy"
+                <button type="play" class="play-btn"><a href="https://youtu.be/OFdyux7VxMk" title="Precision AG video"><img src="img/btn.png"></a></button>
+                <h1>[ Precision Ag. Simplified. ]</h1>
+            </div>
         </div>
         <div class="fixed-btn">
-            <button type="call-to-action" class="fixed-btn">TRY FOR FREE</button>
+            <button type="call-to-action" class="fixed-btn btn">TRY FOR FREE</button>
         </div>
         <nav class="main-nav">
             <ul>
@@ -40,66 +41,84 @@
 
         <main class="main-content">
         <section>
-            <article class="info">
-                <div class="popup-btn" id="security"></div>
-                <h3>Security.</h3>
-                <p>Your data is safe, secure and ready when you are.</p>
-            </article>
-            <article class="info">
-                <div class="popup-btn" id="mobility"></div>
-                <h3>Mobility.</h3>
-                <p>Access information 24/7 anywhere on your devices.</p>
-            </article>
-            <article class="info">
-                <div class="popup-btn" id="compatibility"></div>
-                <h3>Compatibility.</h3>
-                <p>The data you need, available from most devices.</p>
-            </article>
-            <artcile class="info">
-                <div class="popup-btn" id="control"></div>
-                <h3>Control.</h3>
-                <p>Your data is there when you need it and you are in control.</p>
-            </article>
-            <article class="info-box">
-                This is Precision Ag Simplified.
-                <button type="nav" class="btn"><a href="https://www.farmserver.com/about.html" title="See all the features">SEE ALL THE FEATURES</a></button>
-                <p>[Click on the icons above to watch a video]</p>
-            </article>
+            <div class="grid">
+                <div>
+                    <article class="info">
+                        <div class="popup-btn" id="security"></div>
+                        <h3>Security.</h3>
+                        <p>Your data is safe, secure and ready when you are.</p>
+                    </article>
+                    <article class="info">
+                        <div class="popup-btn" id="mobility"></div>
+                        <h3>Mobility.</h3>
+                        <p>Access information 24/7 anywhere on your devices.</p>
+                    </article>
+                    <article class="info">
+                        <div class="popup-btn" id="compatibility"></div>
+                        <h3>Compatibility.</h3>
+                        <p>The data you need, available from most devices.</p>
+                    </article>
+                </div>
+                <div>
+                    <artcile class="info">
+                        <div class="popup-btn" id="control"></div>
+                        <h3>Control.</h3>
+                        <p>Your data is there when you need it and you are in control.</p>
+                    </article>
+                    <article class="info-box">
+                        This is Precision Ag Simplified.
+                        <button type="nav" class="btn"><a href="https://www.farmserver.com/about.html" title="See all the features">SEE ALL THE FEATURES</a></button>
+                        <p>[Click on the icons above to watch a video]</p>
+                    </article>
+                </div>
+            </div>
         </section>
         <section>
             <h3>See what other farmers are saying about FARMserver.</h3>
-            <article class="info">
-                <h4>Chris Kelley</h4>
-                <p class="place">Sharpsville, IN</p>
-                <button type="play" class="btn"><a href="https://youtu.be/eE1oK5_Qxqc" title"Chris Kelley's story">PLAY VIDEO</a></button>
-            </article>
-            <article class-"info">
-                <h4>Ryan Rooney</h4>
-                <p class="place">Huntington, IN</p>
-                <button type="play" class="btn"><a href="https://youtu.be/sIHg_dZ-ej4" title"Ryan Rooney's story">PLAY VIDEO</a></button>
-            </article>
-            <article class="info">
-                <h4>Kurt Stahl</h4>
-                <p class="place">Evansville, IN</p>
-                <button type="play" class="btn"><a href="https://youtu.be/slEWBrWlB5I" title"Kurt Stahl's story">PLAY VIDEO</a></button>
-            </article>
+            <div class="grid">
+                <div>
+                    <article class="info">
+                        <h4>Chris Kelley</h4>
+                        <p class="place">Sharpsville, IN</p>
+                        <button type="play" class="btn"><a href="https://youtu.be/eE1oK5_Qxqc" title"Chris Kelley's story">PLAY VIDEO</a></button>
+                    </article>
+                    <article class-"info">
+                        <h4>Ryan Rooney</h4>
+                        <p class="place">Huntington, IN</p>
+                        <button type="play" class="btn"><a href="https://youtu.be/sIHg_dZ-ej4" title"Ryan Rooney's story">PLAY VIDEO</a></button>
+                    </article>
+                    <article class="info">
+                        <h4>Kurt Stahl</h4>
+                        <p class="place">Evansville, IN</p>
+                        <button type="play" class="btn"><a href="https://youtu.be/slEWBrWlB5I" title"Kurt Stahl's story">PLAY VIDEO</a></button>
+                    </article>
+                </div>
+            </div>
         </section>
         <section>
             <h3>News to use.</h3>
             <h4>Let The Planning Begin...</h4>
             <p>Planning for next year really started a few months ago as we were in the fields harvesting our crop. While harvesting, we were evaluating the plans that had been executed for the 2015 season, the decisions that were made, and the weather events that played out.</p> 
-            <button type="download" class="btn"><a href="assets/news_lettheplanningbegin.pdf" title="download article">DOWNLOAD ARTICLE</a></button>
-            <button type="nav" class="btn"><a href="https://www.farmserver.com/news-to-use.html" title="More articles to download">MORE ARTICLES</a></button>
+            <div class="grid">
+                <div>
+                    <button type="download" class="btn"><a href="assets/news_lettheplanningbegin.pdf" title="download article">DOWNLOAD ARTICLE</a></button>
+                    <button type="nav" class="btn"><a href="https://www.farmserver.com/news-to-use.html" title="More articles to download">MORE ARTICLES</a></button>
+                </div>
+            </div>
         </section>
         <section>
-            <article class="info">
-                <h4>Gina Sloderbeck</h4>
-                <p class="place">FARMserver Support</p>
-                <p>317-565-4120</p>
-            </article>
-            <h3>We're here to help.</h3>
-            <p>You'll never be without support for any portion of your account.</p>
-            <button type="nav" class="btn"><a href="https://www.farmserver.com/contact.html" title="find your local field advisor">FIND YOUR LOCAL FIELD ADVISOR</a></button>
+            <div class="grid">
+                <div>
+                    <article class="info">
+                        <h4>Gina Sloderbeck</h4>
+                        <p class="place">FARMserver Support</p>
+                        <p>317-565-4120</p>
+                    </article>
+                </div>
+            </div>
+                    <h3>We're here to help.</h3>
+                    <p>You'll never be without support for any portion of your account.</p>
+                    <button type="nav" class="btn"><a href="https://www.farmserver.com/contact.html" title="find your local field advisor">FIND YOUR LOCAL FIELD ADVISOR</a></button>
         </section>
         </main>
         <div class="mini-tron">
