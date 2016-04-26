@@ -226,11 +226,12 @@ a:hover, .btn:hover {
 }
 
 section {
+    display: table;
+    border-collapse: collapse;
     border-bottom: 1px solid #62A60A;
     padding: 3em 5em 2em 5em;
     display: block;
     clear: both;
-    border: 1px solid red;
     text-align: center;
 }
 
