@@ -122,13 +122,14 @@ h2, h3, h4 {
 }
 
 p {
-    margin: .5em 0 0 0;
+    margin: .5em 0 1em 0;
 }
 
 .btn {
-    padding: .75em 1.5em;
+    padding: 1em 1.5em;
     background-color: #ffffff;
     border: 1px solid #E6E7E8;
+    margin: 2em 0;
 }
 
 a {
