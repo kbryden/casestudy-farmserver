@@ -103,7 +103,7 @@ html {
 }
 
 html {
-    min-width: 800px;
+    min-width: 700px;
 }
 
 body {
@@ -207,14 +207,24 @@ a:hover, .btn:hover {
 }
 
 .fixed-btn {
+    padding: 0;
+    height: 10em;
+    width: 4em;
     background-color: #252729;
-    color: white;
     position: fixed;
     top: 12em;
-    left: 0;
+    left: 0em;
     border: none;
     box-shadow: 6px 6px 8px hsla(356, 5%, 0%, .5);
     z-index: 250;
+}
+
+.vertical-text {
+    height: 3em;
+    width: 10em;
+    transform: rotate(90deg);
+    color: white;
+    padding: 0 0 0 .5em;
 }
 
 .fixed-btn:hover {
@@ -234,8 +244,8 @@ a:hover, .btn:hover {
 
 .main-nav ul{
     list-style-type: none;
-    padding: 0 0 0 13em;
-    margin: 0;
+    width: 55em;
+    margin: 0 auto;
 }
 
 .main-nav li {
