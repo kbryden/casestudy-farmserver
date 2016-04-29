@@ -300,10 +300,13 @@ section {
     height: 153px;
     border: 1px solid #E8E9EA;
     border-radius: 100px;
+    background-position: center top;
+    transition: .3s;
 }
 
 .popup-btn:hover {
     background-position: center bottom;
+    transition: .3s;
 }
 
 .security {
