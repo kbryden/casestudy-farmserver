@@ -102,6 +102,10 @@ html {
   box-sizing: inherit;
 }
 
+html {
+    min-width: 800px;
+}
+
 body {
     font-family: "Muli", sans-serif;
     font-weight: 400;
@@ -121,15 +125,27 @@ h2, h3, h4 {
     margin: .5em 0 0 0;
 }
 
+h4 {
+    font-size: 1.2em;
+    color: #7C7D7E;
+}
+
 p {
     margin: .5em 0 1em 0;
+}
+
+.place {
+    color: #A4CC72;
+}
+
+.green {
+    color: #62A60A;
 }
 
 .btn {
     padding: 1em 1.5em;
     background-color: #ffffff;
     border: 1px solid #E6E7E8;
-    margin: 2em 0;
 }
 
 a {
@@ -153,7 +169,7 @@ a:hover, .btn:hover {
     position: fixed;
     top: 0;
     left: 0;
-    height: 6em;
+    height: 7em;
     display: block;
     box-shadow: 6px 6px 8px hsla(356, 5%, 0%, .5);
     z-index: 100;
@@ -161,7 +177,7 @@ a:hover, .btn:hover {
 
 .header-logo {
     position: fixed;
-    left: 0em;
+    left: 3em;
     top: 1em;
 }
 
@@ -249,6 +265,7 @@ section {
     display: block;
     clear: both;
     text-align: center;
+
 }
 
 .info {
@@ -274,6 +291,9 @@ section {
     font-weight: 400;
 }
 
+.info-help {
+    text-align: left;
+}
 
 .popup-btn {
     width: 153px;
