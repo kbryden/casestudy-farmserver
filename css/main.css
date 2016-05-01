@@ -273,11 +273,13 @@ a:hover, .btn:hover {
 
 .main-nav ul{
     list-style-type: none;
-    width: 55em;
+    width: 60em;
     margin: 0 auto;
 }
 
 .main-nav li {
+    font-size: 1.05em;
+    letter-spacing: 1px;
     background-color: #E6E7E8;
     float: left;
     padding: 0 2em;
@@ -285,6 +287,9 @@ a:hover, .btn:hover {
     border-right: 1px solid #000000;
 }
 
+.main-nav li:last-child {
+    border-right: none;
+}
 
 /* .main-content */
 
@@ -475,7 +480,8 @@ footer {
     color: #626364;
     text-align: center;
     font-size: 8px;
-    padding: .1px;
+    padding: 1em 0 0 0;
+    margin: 0 0 2.5em 0;
 }
 
 
