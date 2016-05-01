@@ -233,22 +233,26 @@ a:hover, .btn:hover {
 
 .fixed-btn {
     padding: 0;
-    height: 10em;
-    width: 4em;
+    height: 11em;
+    width: 3em;
     background-color: #252729;
     position: fixed;
-    top: 12em;
+    top: 13.5em;
     left: 0em;
     border: none;
-    box-shadow: 6px 6px 8px hsla(356, 5%, 0%, .5);
+    box-shadow: 3px 3px 5px hsla(356, 5%, 0%, .25);
     z-index: 250;
 }
 
 .vertical-text {
+    letter-spacing: 1.5px;
+    position: fixed;
+    top: 18em;
+    left: -4.35em;
     height: 3em;
     width: 10em;
     transform: rotate(90deg);
-    color: white;
+    color: #E2E3E4;
     padding: 0 0 0 .5em;
 }
 
