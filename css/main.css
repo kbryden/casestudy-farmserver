@@ -103,7 +103,8 @@ html {
 }
 
 html {
-    min-width: 700px;
+    min-width: 800px;
+    max-width: 100%;
 }
 
 body {
@@ -112,6 +113,7 @@ body {
     margin: 6em 0 0 0;
     font-size: .9em;
     color: #7C7D7E;
+    width: 100%;
 }
 
 h2, h3, h4, h5 {
@@ -260,6 +262,40 @@ h1 {
     top: 5em;
 }
 
+/* Pop-Up */
+
+.page {
+    height:100%;
+    width: 100%;
+}
+
+.popup {
+    position: absolute;
+    z-index: 300;
+    top: -10em;
+    left: 0;
+    display: block;
+    width: 100em;
+    height: 150em;
+    background:rgba(0,0,0,0.9);
+    opacity:0;
+    visibility:hidden;
+    transition:.3s ease;
+}
+
+.show-popup .popup {
+    opacity: 5;
+    visibility: visible;    
+}
+
+.popup > iframe {
+    position: absolute;
+    top: 15em;
+    left: 10em;
+}
+
+/* fixed-btn */
+
 .fixed-btn {
     padding: 0;
     height: 11em;
@@ -323,7 +359,7 @@ h1 {
 /* .main-content */
 
 .main-content {
-    width: 825px;
+    max-width: 825px;
     margin: auto;
     background-color: #ffffff;
     display: block;
@@ -420,6 +456,7 @@ section {
 .mini-tron {
     background-image: url("../img/farms.jpg");
     width: 100%;
+    min-width: 1000px;
     height: 80px;
     display: block;
     clear: both;
