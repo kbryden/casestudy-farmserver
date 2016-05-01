@@ -114,11 +114,6 @@ body {
     color: #7C7D7E;
 }
 
-h1 {
-    font-weight: 300;
-    font-size: 2.5em;
-}
-
 h2, h3, h4, h5 {
     font-weight: 300;
     font-size: 1.6em;
@@ -158,7 +153,7 @@ p {
 
 .btn {
     padding: 1em 1.75em;
-    background-color: #ffffff;
+    background-color: transparent;
     border: 1px solid #E6E7E8;
     font-size: 1.05em;
     line-height: 6em;
@@ -192,7 +187,7 @@ a:hover, .btn:hover {
 }
 
 .header-group {
-    width: 900px;
+    width: 925px;
     margin: auto;
 }
 
@@ -203,7 +198,7 @@ a:hover, .btn:hover {
 
 .header-btn {
     float: right;
-    margin: 0 1em;
+    margin: .45em 1em;
 }
 
 /* .jumbo-tron */
@@ -217,9 +212,41 @@ a:hover, .btn:hover {
     background-size: cover;
 }
 
+h1 {
+    font-weight: 300;
+    font-size: 2.45em;
+    padding: 0 .6em;
+}
+
+.left-bracket {
+    background-color: transparent;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+    width: .75em;
+    height: 4.1em;
+    position: relative;
+    top: 5.5em;
+    left: 1.85em;
+}
+
+.right-bracket {
+    background-color: transparent;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    width: .75em;
+    height: 4.1em;
+    position: relative;
+    top: -4.35em;
+    left: 32em;
+    margin-top: -1em;
+}
+
 .jumbo-tron-copy {
-    position: absolute;
+    position: relative;
     text-align: center;
+    width: 500px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -229,6 +256,8 @@ a:hover, .btn:hover {
 .jumbo-tron-play-btn {
     width: 6em;
     height: 6em;
+    position: relative;
+    top: 5em;
 }
 
 .fixed-btn {
@@ -329,6 +358,7 @@ section {
     border: 1px solid #E6E7E8;
     background-color: #FAFAFB;
     float: left;
+    color: black;
 }
 
 .info-box h3 {
@@ -398,18 +428,45 @@ section {
 }
 
 .mini-tron-copy {
+    letter-spacing: 1px;
     position: absolute;
-    text-align: center;
-    font-size: 1.5em;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 1.65em;
     color: #ffffff;
+    font-weight: 300;
 }
 
 .mini-tron-copy a {
     color: #ffffff;
 }
+
+.mini-left-bracket {
+    background-color: transparent;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+    width: .5em;
+    height: 2em;
+    position: relative;
+    top: 1.65em;
+    left: -.65em;
+}
+
+.mini-right-bracket {
+    background-color: transparent;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    width: .5em;
+    height: 2em;
+    position: relative;
+    top: -1.75em;
+    left: 5.25em;
+}
+
 
 /* footer */
 
