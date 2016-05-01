@@ -136,7 +136,7 @@ h5 {
 }
 
 p {
-    margin: 0em;
+    margin: 0 0 1em 0;
 }
 
 .name {
@@ -226,9 +226,9 @@ a:hover, .btn:hover {
     color: #ffffff;
 }
 
-.play-btn {
-    width: 6.5em;
-    height: 6.5em;
+.jumbo-tron-play-btn {
+    width: 6em;
+    height: 6em;
 }
 
 .fixed-btn {
@@ -343,7 +343,7 @@ section {
     transition: .3s;
 }
 
-.popup-btn:hover {
+.popup-btn-play:hover {
     background-position: center bottom;
     transition: .3s;
 }
@@ -451,7 +451,7 @@ footer {
 .social-btn {
     width: 37px;
     height: 37px;
-    margin: 1em 1em 1em 0;
+    margin: 0 1em 1em 0;
     border: 1px solid #E8E9EA;
     border-radius: 100px;
     background-position: center top;
