@@ -118,24 +118,37 @@ h1, {
     font-weight: 300;
 }
 
-h2, h3, h4 {
+h2, h3, h4, h5 {
     font-weight: 300;
     font-size: 1.6em;
     color: black;
     margin: .5em 0 0 0;
+    line-height: 2em;
 }
 
 h4 {
     font-size: 1.2em;
-    color: #7C7D7E;
+}
+
+h5 {
+    font-size: 1.2em;
 }
 
 p {
-    margin: .5em 0 1em 0;
+    margin: 0em;
+}
+
+.name {
+    font-size: 1.25em;
+    margin: 1em 0 0 0;
 }
 
 .place {
     color: #A4CC72;
+}
+
+.contact-support {
+    color: black;
 }
 
 .green {
@@ -143,9 +156,11 @@ p {
 }
 
 .btn {
-    padding: 1em 1.5em;
+    padding: 1em 1.75em;
     background-color: #ffffff;
     border: 1px solid #E6E7E8;
+    font-size: 1.05em;
+    line-height: 6em;
 }
 
 a {
@@ -175,15 +190,19 @@ a:hover, .btn:hover {
     z-index: 100;
 }
 
+.header-group {
+    width: 900px;
+    margin: auto;
+}
+
 .header-logo {
-    position: fixed;
-    left: 3em;
-    top: 1em;
+    float: left;
+    margin: 1.25em 0em;
 }
 
 .header-btn {
     float: right;
-    margin: 1.5em .25em;
+    margin: 0 1em;
 }
 
 /* .jumbo-tron */
