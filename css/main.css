@@ -107,15 +107,16 @@ html {
 }
 
 body {
-    font-family: "Muli", sans-serif;
+    font-family: "muli", sans-serif;
     font-weight: 400;
     margin: 6em 0 0 0;
     font-size: .9em;
     color: #7C7D7E;
 }
 
-h1, {
+h1 {
     font-weight: 300;
+    font-size: 2.5em;
 }
 
 h2, h3, h4, h5 {
@@ -223,6 +224,11 @@ a:hover, .btn:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #ffffff;
+}
+
+.play-btn {
+    width: 6.5em;
+    height: 6.5em;
 }
 
 .fixed-btn {
@@ -402,12 +408,19 @@ footer {
     background-color: #E6E7E8;
     display: block;
     clear: both;
+    color: black;
 }
 
 .footer-content {
-    padding: 3em 25% 10em 25%;
+    width: 900px;
+    height: 150px;
+    position: relative;
+    left: 58%;
+    right: 42%;
+    transform: translate(-42%, -58%);
     font-size: .9em;
     line-height: 1.75em;
+    padding: 15em 0 0 0;
 }
 
 .footer-content h3 {
@@ -423,8 +436,34 @@ footer {
 }
 
 .footer-nav li {
-    padding: .75em;
+    padding: .5em;
     font-size: .9em;
+}
+
+.footer-contact {
+    float: left;
+}
+
+.social-btn {
+    width: 37px;
+    height: 37px;
+    margin: 1em 1em 1em 0;
+    border: 1px solid #E8E9EA;
+    border-radius: 100px;
+    background-position: center top;
+    float: left;
+}
+
+.facebook {
+    background: url("../img/facebook_icon_1.jpg");
+}
+
+.twitter {
+    background: url("../img/twitter_icon_1.jpg");
+}
+
+.youtube {
+    background: url("../img/youtube_icon_1.jpg");
 }
 
 .footer-copyright {
